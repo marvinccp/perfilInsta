@@ -1,0 +1,178 @@
+*{
+  padding: 0;
+  margin: 0;  
+}
+body{
+    box-sizing: border-box;
+    font-size: 62.5%;
+     font-family: -apple-system,
+     BlinkMacSystemFont,
+     "Segoe UI",
+     "Roboto",
+     "Oxygen",
+     "Ubuntu",
+     "Cantarell",
+     "Fira Sans",
+     "Droid Sans",
+     "Helvetica Neue",
+     sans-serif;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 60%;
+    height: 80px;
+    margin: 50px auto 0 auto;
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(208, 208, 208);
+}
+.header-container .perfil-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0 12px 0 7px;
+}
+.perfil-name-container {
+margin-right: auto;
+}
+.perfil-name-container .perfil-title {
+   font-weight: 400;
+   font-size: 0.85rem;
+}
+.header-container .menu-header {
+    width: 27px;
+    border-radius: 50px;
+    margin: 0 5px 0 9px;
+    transform: rotate(90deg);
+}
+.header-container h4 {
+  margin-right: auto;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main-container .main-img {
+    width: 60.3935%;
+}
+.footer{
+    margin: 18px auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.90rem;
+}
+.footer-icons{
+    margin-bottom: 5px;
+    display: flex;
+}
+.corazon{
+    background-image: url('./assets/iconos/corazon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    background-size: 25px 25px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+.corazon_active {
+background-image: url('./assets/iconos/corazon_on.png');
+background-repeat: no-repeat;
+background-position: center center;
+padding: 20px;
+background-size: 25px 25px;
+margin-left: 1px;
+cursor: pointer;
+}
+.corazon:hover {
+   /* filter: invert(72%) sepia(10%) saturate(291%) hue-rotate(188deg) brightness(95%) contrast(88%);  */
+   cursor: pointer;
+}
+.corazon_active:hover {
+   /* filter: invert(72%) sepia(10%) saturate(291%) hue-rotate(188deg) brightness(95%) contrast(88%); */
+   cursor: pointer;
+}
+.footer-icons .burbuja{
+    background-image: url('./assets/iconos/burbuja.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    background-size: 31px 31px;
+    cursor: pointer;
+
+}
+.footer-icons .burbuja:hover {
+    filter: invert(72%) sepia(10%) saturate(291%) hue-rotate(188deg) brightness(95%) contrast(88%);
+    cursor: pointer;
+}
+
+.footer-icons .enviar{
+    background-image: url('./assets/iconos/enviar.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    background-size: 22px 22px;
+    margin-left: -2px;
+    cursor: pointer;
+}
+
+.footer-icons .enviar:hover {
+    filter: invert(72%) sepia(10%) saturate(291%) hue-rotate(188deg) brightness(95%) contrast(88%);
+    cursor: pointer;
+}
+.guardar-icon-container{
+display: flex;
+justify-content: flex-start;
+margin-left: auto;
+margin-right: 1px;
+cursor: pointer;
+}
+.guardar {
+    background-image: url('./assets/iconos/guardar.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    background-size: 22px 22px;
+    cursor: pointer;
+}
+.guardar_active {
+    background-image: url('./assets/iconos/guardar_active.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 22px 22px;
+    cursor: pointer;
+}
+
+/* .guardar:hover {
+    /* filter: invert(72%) sepia(10%) saturate(291%) hue-rotate(188deg) brightness(95%) contrast(88%);
+    cursor: pointer; */
+/* } */ */
+
+.caption-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 6px;
+    cursor: pointer;
+}
+
+.caption{
+    display: flex;
+}
+.caption span{
+    margin-left: 10px;
+}
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

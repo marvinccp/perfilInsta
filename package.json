@@ -1,0 +1,24 @@
+{
+  "name": "perfilinsta",
+  "version": "1.0.0",
+  "description": "Perfil de insta para practicar useState/React Js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvinccp/perfilInsta.git"
+  },
+  "keywords": [
+    "Javascript",
+    "React",
+    "Js"
+  ],
+  "author": "Marvin Berrio <marvinccp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marvinccp/perfilInsta/issues"
+  },
+  "homepage": "https://github.com/marvinccp/perfilInsta#readme"
+}

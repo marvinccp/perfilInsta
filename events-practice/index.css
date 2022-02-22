@@ -1,0 +1,35 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(203, 203, 203);
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+section{
+    margin: 50px auto;
+    width: 80vw;
+    text-align: center;
+}
+.blackBox{
+    background-color: black;
+}
+.redBox{
+    background-color: red;
+}
+.greenBox{
+    background-color: rgb(78, 240, 53);
+}
+.orangeBox{
+    background-color: rgba(232, 160, 43, 0.813);
+}
+.greyBox{
+    background-color: rgb(116, 116, 116);
+}
+.blueBox{
+    background-color: rgb(61, 151, 240);
+}
+.purpleBox{
+    background: linear-gradient(30deg,purple, rgb(139, 81, 196))
+}
